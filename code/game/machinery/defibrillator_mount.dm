@@ -17,7 +17,8 @@
 /obj/machinery/defibrillator_mount/loaded/Initialize() //loaded subtype for mapping use
 	. = ..()
 	defib = new/obj/item/defibrillator/loaded(src)
-    icon_state = "defib"
+    update_overlays()
+	
 /obj/machinery/defibrillator_mount/Destroy()
 	if(defib)
 		QDEL_NULL(defib)
