@@ -90,6 +90,7 @@
 /obj/structure/window/fulltile/house{
 	icon_state = "storewindowbottom"
 	},
+/obj/structure/grille,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -1594,6 +1595,7 @@
 	dir = 2;
 	icon_state = "storewindowtop"
 	},
+/obj/structure/grille,
 /turf/open/floor/f13{
 	icon_state = "floorrustysolid"
 	},
@@ -3503,6 +3505,10 @@
 /obj/item/reagent_containers/spray/cleaner,
 /obj/item/clothing/mask/gas,
 /obj/item/clothing/mask/gas,
+/obj/item/organ/cyberimp/eyes/hud/medical,
+/obj/item/organ/cyberimp/eyes/hud/medical,
+/obj/item/organ/cyberimp/eyes/hud/medical,
+/obj/item/organ/cyberimp/eyes/hud/medical,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/tunnel)
 "dEm" = (
@@ -5340,6 +5346,7 @@
 /obj/structure/window/fulltile/house{
 	icon_state = "storewindowhorizontal"
 	},
+/obj/structure/grille,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -7755,6 +7762,9 @@
 /obj/item/stack/sheet/glass/ten,
 /obj/item/stack/sheet/glass/ten,
 /obj/item/stack/rods/twentyfive,
+/obj/item/stack/rods/twentyfive,
+/obj/item/stack/rods/twentyfive,
+/obj/item/stack/rods/twentyfive,
 /turf/open/floor/plating/f13,
 /area/f13/followers)
 "hHI" = (
@@ -8639,6 +8649,10 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/brotherhood/operations)
+"itv" = (
+/obj/item/reagent_containers/glass/beaker/bluespace,
+/turf/closed/wall/f13/supermart,
+/area/f13/tunnel)
 "itI" = (
 /obj/structure/table{
 	layer = 2.9
@@ -9692,6 +9706,7 @@
 	icon_state = "storewindowleft";
 	layer = 2
 	},
+/obj/structure/grille,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -10726,6 +10741,10 @@
 /obj/structure/table/glass,
 /obj/item/stock_parts/cell/high,
 /obj/item/stock_parts/cell/high,
+/obj/effect/spawner/lootdrop/stock_parts,
+/obj/effect/spawner/lootdrop/stock_parts,
+/obj/effect/spawner/lootdrop/stock_parts,
+/obj/effect/spawner/lootdrop/stock_parts,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -12638,6 +12657,7 @@
 "mLL" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/pillbottles,
+/obj/item/reagent_containers/glass/beaker/bluespace,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -13051,6 +13071,7 @@
 	dir = 2;
 	icon_state = "storewindowtop"
 	},
+/obj/structure/grille,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -14242,6 +14263,7 @@
 /obj/structure/window/fulltile/house{
 	icon_state = "storewindowbottom"
 	},
+/obj/structure/grille,
 /turf/open/floor/f13{
 	icon_state = "floorrustysolid"
 	},
@@ -14344,6 +14366,7 @@
 /obj/item/organ/cyberimp/eyes/hud/medical,
 /obj/item/organ/cyberimp/eyes/hud/medical,
 /obj/item/organ/cyberimp/eyes/hud/medical,
+/obj/item/autosurgeon/cmo,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -15618,6 +15641,32 @@
 /area/f13/ncr)
 "pMg" = (
 /obj/structure/table/glass,
+/obj/item/reagent_containers/glass/beaker/bluespace,
+/obj/item/stock_parts/manipulator/pico,
+/obj/item/gun/syringe/dart,
+/obj/item/gun/syringe/dart,
+/obj/item/stock_parts/capacitor/adv,
+/obj/item/stock_parts/capacitor/adv,
+/obj/item/stock_parts/manipulator/nano,
+/obj/item/stock_parts/manipulator/nano,
+/obj/item/stock_parts/manipulator/nano,
+/obj/item/stock_parts/manipulator/nano,
+/obj/item/stock_parts/matter_bin/adv,
+/obj/item/stock_parts/matter_bin/adv,
+/obj/item/stock_parts/matter_bin/adv,
+/obj/item/stock_parts/matter_bin/adv,
+/obj/item/circuitboard/machine/chem_dispenser,
+/obj/item/circuitboard/machine/chem_dispenser,
+/obj/item/circuitboard/machine/chem_master,
+/obj/item/circuitboard/machine/chem_master,
+/obj/item/circuitboard/machine/chem_master,
+/obj/item/circuitboard/machine/chem_master,
+/obj/item/circuitboard/machine/chem_master,
+/obj/item/circuitboard/machine/chem_master,
+/obj/item/circuitboard/machine/chem_heater,
+/obj/item/circuitboard/machine/chem_heater,
+/obj/item/circuitboard/machine/chem_heater,
+/obj/item/circuitboard/machine/chem_heater,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/tunnel)
 "pMM" = (
@@ -16402,6 +16451,8 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/autolathe,
 /obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/metal/fifty,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/tunnel)
 "qBQ" = (
@@ -20384,6 +20435,7 @@
 	name = "Door lockdown button";
 	pixel_x = -5
 	},
+/obj/item/gun/syringe/dart/rapiddart,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -20884,6 +20936,7 @@
 /obj/structure/window/fulltile/house{
 	icon_state = "storewindowright"
 	},
+/obj/structure/grille,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -38075,7 +38128,7 @@ sXV
 fxN
 uoO
 dMQ
-dMQ
+itv
 dMQ
 dMQ
 dMQ

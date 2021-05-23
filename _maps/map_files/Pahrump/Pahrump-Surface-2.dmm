@@ -5214,15 +5214,6 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/village)
-"dGZ" = (
-/obj/structure/window/fulltile/house{
-	dir = 2;
-	icon_state = "storewindowleft"
-	},
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/followers)
 "dHq" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_3"
@@ -14679,6 +14670,11 @@
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
+/obj/item/reagent_containers/hypospray/medipen/stimpak,
+/obj/item/reagent_containers/hypospray/medipen/stimpak,
+/obj/item/reagent_containers/hypospray/medipen/stimpak,
+/obj/item/reagent_containers/hypospray/medipen/stimpak,
+/obj/item/reagent_containers/hypospray/medipen/stimpak,
 /turf/open/floor/f13{
 	icon_state = "bluedirtychess2"
 	},
@@ -15522,6 +15518,9 @@
 /obj/item/roller,
 /obj/item/roller,
 /obj/item/roller,
+/obj/item/reagent_containers/medspray/synthflesh,
+/obj/item/reagent_containers/medspray/synthflesh,
+/obj/item/reagent_containers/medspray/synthflesh,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/city)
 "klA" = (
@@ -16387,6 +16386,13 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/ncr)
+"kPO" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/space)
 "kPX" = (
 /obj/structure/fence/corner/wooden{
 	dir = 8
@@ -22390,14 +22396,6 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/building)
-"oWn" = (
-/obj/structure/window/fulltile/house{
-	icon_state = "storewindowright"
-	},
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/followers)
 "oWv" = (
 /obj/structure/rack,
 /obj/item/storage/bag/plants,
@@ -24642,14 +24640,6 @@
 /obj/item/kitchen/knife/butcher,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"qvu" = (
-/obj/structure/window/fulltile/house{
-	icon_state = "storewindowbottom"
-	},
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/followers)
 "qvN" = (
 /obj/structure/barricade/wooden,
 /obj/structure/decoration/rag{
@@ -25692,10 +25682,8 @@
 	},
 /area/f13/legion)
 "rco" = (
-/obj/structure/window/fulltile/house{
-	dir = 2;
-	icon_state = "storewindowtop"
-	},
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -57058,7 +57046,7 @@ koD
 xsX
 rco
 fvi
-qvu
+rco
 gKG
 gKG
 gKG
@@ -57312,7 +57300,7 @@ lSD
 uVo
 snB
 koD
-dGZ
+rco
 dyO
 dDF
 dDF
@@ -57569,7 +57557,7 @@ hbW
 apk
 apk
 mfq
-oWn
+rco
 dUk
 dDF
 dDF
@@ -58854,7 +58842,7 @@ lSD
 uVo
 snB
 mfq
-dGZ
+rco
 dUk
 dDF
 dDF
@@ -59111,7 +59099,7 @@ hbW
 apk
 apk
 koD
-oWn
+rco
 kNV
 dDF
 dDF
@@ -60402,9 +60390,9 @@ xOZ
 gKG
 gKG
 rco
+kPO
 rco
 rco
-qvu
 gKG
 lhz
 lhz
