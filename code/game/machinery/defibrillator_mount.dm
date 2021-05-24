@@ -18,6 +18,20 @@
 	. = ..()
 	defib = new/obj/item/defibrillator/loaded(src)
 	update_overlays()
+	. = ..()
+	if(!defib)
+		return
+
+	. += "defib"
+
+	if(defib.powered)
+		. += (defib.safety ? "online" : "emagged")
+		var/ratio = defib.cell.charge / defib.cell.maxcharge
+		ratio = CEILING(ratio * 4, 1) * 25
+		. += "charge[ratio]"
+
+	if(clamps_locked)
+		. += "clamps"
 
 /obj/machinery/defibrillator_mount/Destroy()
 	if(defib)
