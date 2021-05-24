@@ -17,8 +17,18 @@
 /obj/machinery/defibrillator_mount/loaded/Initialize() //loaded subtype for mapping use
 	. = ..()
 	defib = new/obj/item/defibrillator/loaded(src)
+<<<<<<< Updated upstream
     update_overlays()
 	
+=======
+	update_overlays()
+	. = ..()
+	if(!defib)
+		return
+
+	. += "defib"
+
+>>>>>>> Stashed changes
 /obj/machinery/defibrillator_mount/Destroy()
 	if(defib)
 		QDEL_NULL(defib)
