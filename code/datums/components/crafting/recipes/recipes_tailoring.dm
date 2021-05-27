@@ -873,6 +873,14 @@
 	category = CAT_CLOTHING
 	subcategory = CAT_MISCCLOTHING
 
+/datum/crafting_recipe/chaplain_hood
+    name = "Follower Hoodie"
+    result = /obj/item/clothing/suit/hooded/chaplain_hoodie
+    time = 5
+    tool_paths = list(/obj/item/clothing/suit/hooded/chaplain_hoodie, /obj/item/storage/book/bible)
+    reqs = list(/obj/item/stack/sheet/cloth = 4)
+    category = CAT_CLOTHING
+	subcategory = CAT_MISCCLOTHING
 /*
 /datum/crafting_recipe/durathread_vest
 	name = "Makeshift Vest"
